@@ -1,0 +1,764 @@
+
+/* ---------- Overall Specifications ---------- */
+
+
+#sitecontainer {
+
+margin: 0 auto;
+width: 940px;
+}
+
+sitecontainer {
+
+margin: 0 auto;
+}
+
+
+#vintagelogo {
+ height: 99px;
+    position: relative;
+	float:left;
+    width: 290px;
+	
+      }
+	  
+#vintagelogo a {
+    display:block;
+    position:relative;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+#vintagelogo a span {
+	 background:url(images/vintagelogo.png) no-repeat;
+	 position:absolute;
+	    height:100%;
+      width:100%;
+      z-index: 100;
+	
+}
+
+html {
+background-color: #dfdfdf;
+}
+
+/* ---------- Menu and Primary Naviagation---------- */
+
+#header {
+width: 100%;
+height: 140px;
+margin-top: 20px;
+
+}
+
+#navigation {
+width: auto;
+float: right;
+position: relative;
+}
+
+main-menu {
+text-decoration: none;
+
+
+}
+
+/*
+#main-menu-links {
+margin-top:65px;
+float: right;
+font-family: "museo-slab-1","museo-slab-2",serif;
+  font-size: 175%;
+  color: #681d11;
+}
+*/
+#main-menu-links {
+margin:65px 0 0 0;
+float: right;
+font-family: 'Lato', arial, serif;
+  font-size: 200%;
+  font-weight: 100;
+  font-style: regular;
+  color: #681d11;
+  text-transform: lowercase;
+}
+
+#main-menu-links li{
+    display: inline;}
+ 
+#main-menu-links li a {
+    float: right; 
+	text-decoration: none;
+    color: #681d11;
+    padding-left: 25px;
+  }
+  
+  
+  /* ---------- Homepage Featured Slider---------- */
+  
+
+#featured-slider {
+margin-left: auto;
+margin-right: auto;
+width: 930px;
+display:block;
+height: 330px;
+border: 5px solid #999999;
+position: relative;
+
+}
+
+.dropshadowsslider {
+margin-left: auto;
+margin-right: auto;
+background: url(images/dropshadowslider.png) no-repeat;
+width:938px;
+height:11px;
+display:block;
+}
+
+#views_slideshow_controls_text_featured_homepage_slider-block {
+
+margin-top: 280px;
+position:absolute;
+
+}
+
+ #views_slideshow_controls_text_previous_featured_homepage_slider-block, #views_slideshow_controls_text_pause_featured_homepage_slider-block,
+#views_slideshow_controls_text_next_featured_homepage_slider-block {
+
+ height: 0px;
+  width:42px;
+ position: absolute;
+ padding-top:42px;
+  overflow:hidden;
+  z-index:200;
+  
+    }
+
+  
+#views_slideshow_controls_text_previous_featured_homepage_slider-block {
+
+background: url(images/prev_arrow_feature_control.png) no-repeat;
+margin-left: 790px;
+
+
+}
+
+/* #views_slideshow_controls_text_pause_featured_homepage_slider-block, {
+
+background: url(images/pause_symbol_feature_control.png) no-repeat;
+margin-left: 790px;
+ } 
+ */
+#views_slideshow_controls_text_next_featured_homepage_slider-block {
+
+background: url(images/forward_arrow_feature_control.png) no-repeat;
+margin-left: 840px;
+
+}
+
+/* ---------- Wine Page Slider---------- */
+
+#views_slideshow_cycle_teaser_section_wine_page_image_slider-block {
+float:right;
+width: 350px;
+display:block;
+height: 200px;
+border: 5px solid #999999;
+
+}
+
+.page_slider {
+float:right;
+position:absolute;
+}
+
+/* ---------- Menu Page Slider---------- */
+
+#views_slideshow_cycle_teaser_section_menu_page_image_slider-block {
+float:right;
+width: 350px;
+display:block;
+height: 200px;
+border: 5px solid #999999;
+
+}
+
+.page_slider {
+float:right;
+position:absolute;
+}
+
+
+/* ---------- Wine List Views--------- */
+
+.views-field-field-wine-location-description {
+width: 800px;
+float: left;
+}
+
+.views-field-field-wine-price {
+width: 100px;
+float: right;
+position: relative;
+}
+
+
+  
+/* ---------- Tagline Content---------- */
+
+.tagline {
+
+background-color: #ecebeb;
+height:90px;
+margin: 20px 20px 40px 20px;
+overflow: visible;
+
+}
+
+/*.tagline-image {
+
+width: 58px;
+height: 120px;
+margin: -17px 10px 0 10px;
+float: left;
+background: url(images/vintagetaglinegraphic.png) no-repeat;
+
+}
+*/
+
+.region-tagline-region {
+margin: 0 0 0 20px;
+}
+
+.tagline h1 {
+
+color: #898989;
+margin: 0 0 0 0;
+padding:  15px 0 0 0;
+line-height:1;
+font-style:italic;
+font-size: 220%;
+font-family: 'Lato', arial, serif;
+}
+
+.tagline p {
+
+color: #bf540f;
+padding: 10px 0 0 0;
+margin: 0 0 0 0;
+font-style:italic;
+font-weight:300;
+font-size: 130%;
+line-height:1;
+font-family: 'Lato', arial, serif;
+
+
+}
+/* ---------- Node Tabs---------- */
+
+.tabs li a  {
+font-weight:300;
+font-size: 100%;
+font-family: 'Lato', arial, serif;
+
+}
+  
+/* ---------- Body Content---------- */
+
+.red {
+
+background-color:#FF0000;
+
+}
+
+.block_titles {
+clear:both;
+}
+
+
+
+.node-body h2 {
+
+margin: 0 0 5px 0;
+font-family: 'Lato', arial, serif;
+font-weight:300;
+  color: #555555 ;
+
+}
+
+.node-body p {
+margin: 10px 0 10px 0;
+font-family: 'Lato', arial, serif;
+font-weight:500;
+  color: #888888;
+
+}
+
+.node-body {
+height: 250px;
+}
+
+.wine_list_view_titles {
+
+width: 500px;
+float: left;
+position: relative;
+}
+
+
+.wine-list {
+
+margin: 40px 0 30px 0;
+
+}
+
+
+.region-wine-list h2 {
+
+margin: 0px 0 10px 0;
+padding-top: 20px;
+font-family: 'Lato', arial, serif;
+color: #333333;
+font-weight:200;
+clear:both;
+
+}
+
+.view-wine-list-sparkling div.views-row {
+clear:both;
+}
+
+.views-field-field-wine-location-description div, .views-field-field-wine-price div, .legend p {
+
+margin: 2px 0 2px 0;
+font-family: 'Lato', arial, serif;
+  color: #666666;
+font-weight:500;
+
+}
+
+.legend {
+margin-bottom: 20px;
+}
+.legend p {
+text-align:center;
+}
+
+
+
+.menu_item_title {
+margin-right: 5px;
+float:left;
+clear: both;
+}
+
+.region-menu-left div.views-row, .region-menu-right div.views-row  {
+clear:both;
+}
+
+.menu_item_description {
+width: 100%;
+height: 100%;
+
+}
+
+.menu-list {
+margin: 60px 0px 40px 0px;
+}
+
+.menu-divider {
+border-bottom: 1px solid #888888;
+}
+
+.menu-list h2, .breakfast h2, .brunch h2 {
+
+margin: 20px 0 10px 0;
+font-family: 'Lato', arial, serif;
+color: #333333;
+font-weight:200;
+
+}
+
+.menu_item_title {
+
+font-family: 'Lato', arial, serif;
+font-weight:500;
+  color: #888888;
+}
+
+.menu_item_description {
+
+font-family: 'Lato', arial, serif;
+font-weight:300;
+font-style: italic;
+  color: #888888;
+}
+
+#sub_node_box {
+height: 350px;
+padding: 40px 0 40px 0;
+width: 100%;
+background-color: #ebebeb;
+clear:both;
+position: relative;
+}
+
+.breakfast, .brunch {
+margin-bottom: 20px;
+}
+
+/* ---------- Mentions---------- */
+
+.mention-row-logo {
+width:200px;
+float: right;
+}
+
+.mention_row_quote p {
+float: left;
+font-style:italic;
+}
+
+/*
+mention-body img {
+  font-family: "museo-slab-1","museo-slab-2",serif;
+  }
+*/  
+
+.bottommargin {
+padding-bottom: 40px;
+}
+
+
+
+/* ----------Upcoming---------- */
+
+
+.upcoming-events-row {
+clear:both;
+}
+
+.upcoming_events_title p {
+margin: 0 0 0 0;
+font-size: 120%;
+font-weight: 300;
+  color: #666666;
+}
+
+.upcoming_events_time p, .upcoming_events_date p  {
+
+margin: 0 0 0 0;
+font-size: 100%;
+
+}
+
+.upcoming_events_image {
+float: left;
+margin: 0px 10px 10px 0px;
+height: 100%;
+
+}
+
+.upcoming_events_image {
+float: left;
+margin: 0px 10px 10px 0px;
+height: 100%;
+
+}
+
+.upcoming_events_image img {
+border: 4px solid #999999;
+}
+
+.upcoming_events_image p {
+
+margin: 0 0 0 0;
+
+
+}
+
+
+
+
+/* ----------Specials---------- */
+
+.specials {
+padding: 0 20 0 20;
+}
+
+.specials-row {
+font-size: 120%;
+font-weight: 300;
+  color: #666666;
+  font-family: 'Lato', arial, serif;
+  margin: 0 0 8px 0;
+}
+
+.blocktitleshift {
+margin-top: 40px;
+}
+/* ----------Footer---------- */
+
+
+
+/*footer {
+background-image: url(images/footertrans.png);
+background-repeat:repeat-x;
+background-color: #52160d;
+height:300px;
+
+} */
+
+footer
+{
+    width:100%;
+    float: left;
+    height: 370px;
+	background-image: url(images/footertrans.png);
+background-repeat:repeat-x;
+background-color: #52160d;
+    position: relative;
+    clear:both;
+}
+
+
+footer h1 {
+  font-size: 200%;
+  font-weight:400;
+  color:#dfdfdf;
+    margin: 30px 0 0 0;
+  padding: 0 0 0 0;
+  line-height: 1.5;
+ }
+ 
+  footer h2 {
+  font-size: 120%;
+  font-weight:200;
+  color:#dfdfdf;
+  margin: 0 0 0 0;
+  padding: 10px 0 0 0;
+  line-height: 1.2;
+ 
+ }
+ 
+footer h3 {
+  font-size: 100%;
+  font-weight:200;
+  color:#dfdfdf;
+  margin: 0 0 0 0;
+  padding: 10px 0 0 0;
+  line-height: 1.5;
+ 
+ }
+ 
+ footer p {
+  font-size: 80%;
+  font-weight:300;
+  color:#dfdfdf;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  line-height: 1.2;
+ 
+ }
+
+footer a:link,
+footer a:visited, footer a:hover,
+footer a:active,
+footer a:focus {
+  text-decoration: none;
+  color: #dfdfdf;
+    }
+  
+#map_canvas {
+margin-top:10px;
+margin-bottom:10px;
+  height: 100px;
+  width: 240px;
+ 
+  }
+
+.facebooklike {
+width: 90px;
+height: 20px;
+float: left;
+}
+
+
+.twitterfollow {
+width: 200px;
+height: 20px;
+position:relative;
+float:right;
+margin-top: -10px;
+}
+
+.facebook-like-button a { 
+
+background: url(images/facebooklogo.png) no-repeat;
+display:block;
+text-indent:50px;
+height: 35px;
+width: 200px;
+
+}
+
+.facebook-like-button p { 
+padding-top: 8px;
+}
+
+
+.twitter-follow-button {
+margin-top: 10px;
+}
+
+
+.twitter-follow-button a { 
+
+background: url(images/twitterlogo.png) no-repeat;
+display: block;
+text-indent:50px;
+height: 35px;
+width: 200px;
+
+
+}
+
+.twitter-follow-button p { 
+padding-top: 8px;
+}
+
+/* ----------Email Signup Block / Form---------- */
+  
+input.form-submit {
+	margin-left: 5px;
+	margin-top: 2px;
+	padding: 2px 5px 2px 5px;
+    border: 3px solid #dfdfdf;
+	background: #FFFFFF;
+	}
+
+.form-text {   
+
+	padding-left: 5px;
+font-family: 'Lato', arial, serif;
+    color: #333333;
+  font-weight:300;
+  font-size: 100%;
+  
+  }
+
+
+
+#edit-submit {
+
+font-family: 'Lato', arial, serif;
+    color: #333333;
+  font-style: regular;
+  font-size: 100%;
+  
+  }
+
+#edit-submitted-email { 
+margin: 2px 5px 2px 0px;
+    border: 3px solid #dfdfdf;
+float:left;
+  width: 200px;
+  height: 20px; 
+ }
+  
+  
+
+
+/* ----------Mailchimp eNewsletter Signup (Not Used right now)---------- */
+
+
+edit-submitted-fname {
+display:none;
+}
+
+edit-submitted-lname {
+display:none;
+}
+
+form-type-textfield form-item-mailchimp-lists-b8fd99fe24-EMAIL label {
+display:none;
+}
+
+
+/* ----------Core CSS---------- */
+
+
+#messages {
+margin: 0 auto;
+width:800px;
+
+
+
+}
+
+body {
+  line-height: 1.5;
+  font-size: 87.5%;
+  word-wrap: break-word;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #681d11;
+}
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  color: #681d11;
+}
+/*
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1.0em 0 0.5em;
+  font-family: "museo-slab-1","museo-slab-2",serif;
+}
+
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { 
+/* font-family: "museo-slab-1","museo-slab-2",serif; */
+font-family: 'Lato', arial, serif;
+ }
+
+
+h1 {
+  font-size: 300%;
+  font-weight:300;
+  color: #681d11;
+ 
+}
+h3 {
+  font-size: 125%;
+  font-weight:100;
+  font-style:italic;
+}
+p {
+  margin-top: 5px;
+font-family: 'Lato', arial, serif;
+  font-weight:100;
+  font-size: 120%;
+}
+

@@ -1,0 +1,150 @@
+.front #branding{
+  top:-2px;
+}
+
+#gfscanada_overlay {
+  display:none;
+}
+#footer {
+  padding-bottom: 20px;
+}
+
+#main-content fieldset.collapsible .drop-shadow {
+  margin-top: 25px;
+}
+
+/* ================================================================================================ */
+/* ››››› Section Menu ‹‹‹‹‹ */
+/* ================================================================================================ */
+
+#site-menu {
+  top:56px;
+  left:0px;
+  z-index:1;
+}
+div#site-menu {
+  margin-top: -4px;
+}
+#site-menu ul .menuparent:hover {
+  position: relative;
+  top:-6px;
+  padding-top: 6px;
+  margin-bottom: -6px;
+}
+#site-menu ul .active {
+  position:relative;
+  top: 0;
+}
+#site-menu ul ul {
+  border-top: none;
+  padding: 7px 0 9px 0;
+  margin-top: 15px !important;
+}
+#site-menu ul .menuparent ul .first{
+ padding: 3px 0px 3px 9px;
+}
+  #site-menu ul .menuparent ul li {
+   padding: 3px 0px 3px 9px;
+  }
+  #site-menu ul ul li {
+    margin: 0 3px;
+    width: 160px;
+  }
+
+
+/* ================================================================================================ */
+/* ››››› Header Search ‹‹‹‹‹ */
+/* ================================================================================================ */
+DIV#site-header-search .button_all {
+  padding-right:3px;
+}
+  DIV#site-header-search .button_all span{
+    padding-left:3px;
+  }
+
+#webform-client-form-181 #webform-component-address {
+  float:left;
+  width:500px;
+}
+#webform-client-form-181 #webform-component-address  input {
+  width:200px;
+}
+
+
+
+/* ================================================================================================ */
+/* ››››› Fieldset fixing ‹‹‹‹‹ */
+/* ================================================================================================ */
+
+fieldset.collapsible {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+  fieldset.collapsible legend {
+    position:absolute;
+    top: -.5em;
+    left: .5em;
+  }
+  fieldset.collapsible {
+    position: relative;
+    margin-top:1em;
+    padding-top:.75em;
+  }
+  fieldset.collapsible p {
+    padding: 0;
+    margin: 0;
+    padding-top: 25px;
+  }
+
+
+
+/* ================================================================================================ */
+/* ››››› Images ‹‹‹‹‹ */
+/* ================================================================================================ */
+
+.drop-shadow-inner {
+  padding-bottom: 3px;
+}
+
+/* ================================================================================================ */
+/* ››››› Production Category and Our Brands ‹‹‹‹‹ */
+/* ================================================================================================ */
+
+.view-product-category tr td, .view-our-brands tr td {                                                                                                               
+  width: 122px;                                                                                                                        
+}
+
+/* ================================================================================================ */
+/* ››››› Welcome header text ‹‹‹‹‹ */
+/* ================================================================================================ */
+
+
+#header-region {
+  z-index: 1;
+  width: 960px;
+}
+  #header-region #front_header_welcome {
+    left: 0;
+    top: 0;
+  }
+
+/* ================================================================================================ */
+/* ››››› Dessert Menu Form ‹‹‹‹‹ */
+/* ================================================================================================ */
+
+#webform-component-additional-desserts-and-drinks .webform-component-fieldset .description {
+  font-size: 100%;
+  top: 30px;
+  left: 20px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+#webform-component-basic-contact-information .webform-component {
+  float: right;
+  padding-right: 103px;
+}
+#webform-component-basic-contact-information .webform-component-date {
+  padding-right: 110px; 
+}

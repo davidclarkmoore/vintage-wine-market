@@ -1,0 +1,35 @@
+
+<head>
+<script>
+	google.maps.Polygon.fromEncoded = function(encoded, polygonOptions){
+			polygonOptions = polygonOptions || {};
+			
+			var path = [], i = -1, j = -1, k, l, q = encoded.match(/[\_-\~]*[\?-\^]/g), w = 0, x = 0, y = 0, z = 1e-5;
+
+			if (q) for (;;) {
+				if (!q[++i]) break;
+
+				for (k = q[i].length, l = 63, w = 0; k--; l = 95) w = (w << 5) + q[i].charCodeAt(k) - l;
+
+				y += (w << 31 >> 31) ^ (w >> 1);
+
+				if (!q[++i]) break;
+
+				for (k = q[i].length, l = 63, w = 0; k--; l = 95) w = (w << 5) + q[i].charCodeAt(k) - l;
+
+				x += (w << 31 >> 31) ^ (w >> 1);
+
+				path[++j] = new google.maps.LatLng(y * z, x * z);
+			}
+			
+			polygonOptions.paths = path;
+
+			return new google.maps.Polygon(polygonOptions);
+		};
+</script>
+</head>
+<html>
+
+
+
+</html>

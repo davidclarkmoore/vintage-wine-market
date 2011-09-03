@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<title>French Service Areas</title>
+		<!--<script src="http://maps.google.com/maps?file=api&v=2&sensor=false&key=ABQIAAAA20eC2wJ7JKogvngjG26n5RSRonj1BAYaVurC2NduiCaoALu4IhQa_JS56FUyXKEwZS8wYHOcrIZuvg"></script>-->
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="/sites/all/themes/gfscanada/service-area-fr/jquery.js"></script>
+<script src="/sites/all/themes/gfscanada/service-area-fr/jquery.url.js"></script>
+<script src="/sites/all/themes/gfscanada/service-area-fr/service-areas.js"></script>
+
+		<link rel="stylesheet" href="/sites/all/themes/gfscanada/service-area-fr/service-areas.css" media="all" />
+	</head>
+	<body>
+		<div id="service-areas">
+			<div id="service-areas-control-panel">
+				<div class="inner">
+					<form method="GET" action="#" >
+						<fieldset>
+							<div id="service-areas-form">
+								<label for="address">Entrez une ville, une province ou un code postal</label>
+								<input type="text" id="address" name="q" value="" /><button type="submit" name="submit"><span>CHERCHER</span></button>
+							</div>
+							<div style="display:none;" id="service-areas-controls">Loading...</div>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+			<div id="service-areas-map">Loading map...</div>
+		</div>
+	</body>
+</html>

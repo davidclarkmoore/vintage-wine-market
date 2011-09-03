@@ -1,0 +1,7 @@
+name = views_exp
+description = Change default sort order for wines by glass
+package = views_exp
+core = 7.x
+
+files[] = views_exp.module
+files[] = views_exp.inc

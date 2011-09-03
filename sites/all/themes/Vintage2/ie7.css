@@ -1,0 +1,52 @@
+
+.menu_item_description {
+	height: 100%;
+}
+
+
+
+ #views_slideshow_controls_text_previous_featured_homepage_slider-block, #views_slideshow_controls_text_pause_featured_homepage_slider-block,
+#views_slideshow_controls_text_next_featured_homepage_slider-block {
+
+	height: 0px;
+	width:42px;
+	padding-top:42px;
+  	overflow:hidden;
+  	z-index: 400;
+  	}
+  	
+
+#views_slideshow_controls_text_featured_homepage_slider-block {
+
+	margin-top: 280px;
+	position:absolute;
+	z-index: 99;
+
+}
+
+#featured-slider {
+	z-index:999;
+
+
+}
+
+.wine-list {
+
+	padding-top: 40px;
+	padding-bottom: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+
+.page_slider {
+margin-top: 20px;
+}
+
+.footer a:link, a:visited, a:hover {
+color: #dfdfdf;
+}
+
+.blocktitleshift {
+	margin-top: 0px;
+}

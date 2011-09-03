@@ -1,0 +1,9 @@
+; $Id: webform_php.info,v 1.1 2010/03/27 04:29:44 quicksketch Exp $
+name = Webform PHP
+description = Allows the execution of PHP code when submitting or validating webform submissions.
+core = 7.x
+package = Webform
+dependencies[] = webform
+
+files[] = webform_php.install
+files[] = webform_php.module

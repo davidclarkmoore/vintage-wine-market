@@ -1,0 +1,60 @@
+<?php
+// $Id: webform_php.install,v 1.1.2.3 2010/10/17 21:06:39 quicksketch Exp $
+
+/**
+ * @file
+ * Webform PHP module install/schema hooks.
+ */
+
+/**
+ * Implements hook_schema().
+ */
+function webform_php_schema_alter() {
+  $schema = array();
+
+  $schema['webform']['fields']['additional_validate'] = array(
+    'description' => 'PHP code for additional functionality when validating a form.',
+    'type' => 'text',
+    'not null' => FALSE,
+  );
+  $schema['webform']['fields']['additional_submit'] = array(
+    'description' => 'PHP code for additional functionality when submitting a form.',
+    'type' => 'text',
+    'not null' => FALSE,
+  );
+
+  return $schema;
+}
+
+/**
+ * Implements hook_install().
+ */
+function webform_php_install() {
+  $ret = array();
+  $spec = array(
+    'type' => 'text',
+    'not null' => FALSE,
+  );
+
+  // Add the additional validate and submit columns if needed.
+  if (!db_field_exists('webform', 'additional_validate')) {
+    db_add_field('webform', 'additional_validate', $spec);
+    db_add_field('webform', 'additional_submit', $spec);
+  }
+  // Even if they exist, update the spec for consistency.
+  else {
+    db_change_field('webform', 'additional_validate', 'additional_validate', $spec);
+    db_change_field('webform', 'additional_submit', 'additional_submit', $spec);
+  }
+}
+
+
+
+/**
+ * Implements hook_uninstall().
+ */
+function webform_php_uninstall() {
+  $ret = array();
+  db_drop_field('webform', 'additional_validate');
+  db_drop_field('webform', 'additional_submit');
+}

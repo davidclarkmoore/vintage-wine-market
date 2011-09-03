@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<service-areas>
+	<distributions>
+		<distribution id="restaurants" name="Restaurants, Healthcare, Education and Other Foodservice">
+			<messages>
+				<message pattern="Canada$" id="canada-standard-distribution" />
+				<message pattern=".*" id="us-standard-distribution" />
+			</messages>
+			<polygonGroups fill-color="FF0000" fill-opacity="20" stroke-color="AA4040" stroke-opacity="50" stroke-weight="3">
+				<polygonGroup pattern="USA$" id="us-standard-distribution" />
+				<polygonGroup pattern="((AB|BC|MB|NB|NL|NS|ON|PE|QC|SK|YT|NT), Canada|^Canada)$" id="canada-standard-distribution" />
+			</polygonGroups>
+		</distribution>
+		<distribution id="chain-operators" name="Chain Operators">
+			<messages>
+				<message pattern=".*" id="us-chain-distribution" /> 
+			</messages>
+			<polygonGroups fill-color="000000" fill-opacity="10" stroke-color="000000" stroke-opacity="35" stroke-weight="3">
+				<polygonGroup pattern="USA$" id="us-chain-distribution" />
+				<polygonGroup pattern="((AB|BC|MB|NB|NL|NS|ON|PE|QC|SK), Canada|^Canada)$" id="canada-standard-distribution" />
+			</polygonGroups>
+		</distribution>
+	</distributions>
+	<messages>
+		<message id="us-standard-distribution">
+			<inside><![CDATA[Gordon Food Service distribution is available in your area. <a href="/en/become-customer" target="_parent">Click here</a> to become a customer!]]></inside>
+			<edge ref="inside" />
+			<outside>You have entered an address outside of Canada. If you are looking for a distribution center in the US please visit &lt;a href="http://www.gfs.com" target="_blank"&gt;www.gfs.com&lt;/a&gt;.</outside>
+		</message>
+		<message id="us-chain-distribution">
+			<inside><![CDATA[Gordon Food Service chain distribution is available in your area. <a href="/en/become-customer" target="_parent">Click here</a> to become a customer!]]></inside>
+			<edge ref="inside" />
+			<outside>You have entered an address outside of Canada. If you are looking for distribution center in the US please visit &lt;a href="http://www.gfs.com" target="_blank"&gt;www.gfs.com&lt;/a&gt;.</outside>
+		</message>
+		<message id="canada-standard-distribution">
+			<inside><![CDATA[GFS Canada distribution is available in your area. <a href="/en/become-customer" target="_parent">Click here</a> to become a customer!]]></inside>
+			<edge ref="inside" />
+			<outside>GFS Canada distribution is limited in your area. Please &lt;a href="/en/become-customer" target="_parent"&gt;contact us&lt;/a&gt; for more information.</outside> 
+		</message>
+	</messages>
+	<polygonGroups>
+		
+		<polygonGroup id="canada-standard-distribution">
+			<polygon>
+				<encodedPoints>{wajHvbxcQ?xv|jD~y`@_u|@l_K?pzMdqs@j}YivIzyQceIn`E_tHdd[dhYzuItkx@osMfl}Asdf@l_kCmmmHzztR{rrC|~eBqfq@gj|BsshD|rlCe|dCdjwCsfiDhooGyzaD~ca@gry@|c|@awOs~j@sf@}_iAe_LfhCs|BwdOcnZcyo@{~VstWihGor@s~B_fBmr]c}b@}nDePynDxbHw|TnyCgnDtjDulRbeIihSihCmcDb~EsjHdPgmGc~Ek|BmoFadPyiKyrNga@qwUpfQvaDv{Zo~DbsOcuAhdPy{SbeImdCdo\qsRlq]gvFh_z@gxHzaOcaQzkx@m{L|oUjpBx}q@azl@zmN}pIrwg@old@_mEgtCtst@ua\}hRqb`F``kFsbI_iR_g]hf}@ywYzd_@}~\~byAk}M?eiB~aOynI_fBksPr_NsPrfQusKttW}oJhhCoqEhjp@{qKrxJ{pEsqGssF|oUojIi}LwqR~eBqwH~zKcs@hdPkpL~lE{dRtvn@vhZnvzAlxBfcm@l}Gfg`@jrFaaVj~DgPzlJ|iKbyB|aOgvAfkSp{c@ga@ztTpmTlYdrl@zq]|{uAdgQj_d@?h}LqbMawBguw@r{Zy~kCjwuFuhcA|krKc{kX?vlgBcuewH`wgWhsb^lhxFgapJvpdHqabDswa@a`kF~xgBqj{MlvjCme|Fbx~B{g_Lfqy@aywQt{sDhxv@newAitcAbmxCten@tx{BqabDf_i@}zKr|c@}zrBj_dB{flAysq@gtjDqp{AoihCwi|B|j_AkbyCpa{@{_pAidPa~`Crm{Bys|AurzIor|CyvfFeceD}j_AwdoEpqnBsrqCt~sHw~z@}vXglxDepwDobrBren@ilfAfppAuxkAgppAw}pA~vXoxbAfnc@s_dAlhCcub@g`dCmrZi`]psWyh`Fzsf@yb`E{sf@_~dH`qbA_p~GxqvAgnjC~hbA}nr@~|`@gr}B}bCyhyBxvr@wcAnaZgrVmsgA{byAf`qAi`]d{iE~zKpk}Bua{@fod@hvIplCcr}Bhh`@sia@`ub@awXanCsst@|zYe|i@wfA}zrB{gT{flA{l~@_}x@qdKel}Aya`@knc@ijY`iRint@uoaAolk@`wXuma@}flAobpA}|x@mdg@a{Kdu^oytAfbjHarkIdclC}trAbk|@cx}CbsqGghjB|aqCetjDjq`Ac|pCf~jAyfzGtenAcx}Chls@h|i@zqtAsen@pgSg`dCjmt@{v_C`mgC`{KrqqCu}gAfmbJ`wXpav@yvfFrpoFufzGl`sDqihCh~|Fn}nDy`t@jq|HpwJ|g_L{fnCria@whSdawMm|sD~vXez{DyzyEo{cFoabDu|pC{zrBxtAzrlCj{|@`tjDjepDbxdGpkKrjtJuwWzllB{vA~hkS|s^xfsDfuw@|xeArqrA~`l@zrYbx}Cxmt@~llBh_tAbhjBlbbArg{Av~pA||x@xv~@hppAlhy@pst@i_bAqchBqbmAsuaByxzAoqnBcufBydmFyqbAudmFasYgx}CjeCoihCv_TquaBj{i@{_iAvjpAiyYfh|@poaAtvNi`]tnk@utWd|r@~zKfenBth~@jV}c|@woPk|i@fwG_bOpwp@_fBzeL`{Klpr@q~qC_|DwdmF{jnA}re@voeAgppA?knc@ieh@sqGiplAqknAvqMibjAzf`Cswg@|{l@}xeA|n`Aqst@dmtAnohDzz|@f`dCzliBrfaKzx}@vpfE||{D~}dH}wkBftjDsfiB|j_A_by@dqs@sfNgyYqrhAplq@t`E~`l@{}ZjdPq~RogJm}RxpNmgDa{KygMcPc{RjsjAujUihCqdZw_CaizEj_AmtFtdRqfOtxJiw]vhs@mpA~rZrjLfjBrMfbg@j|GnuP~yJxdj@kqLlq]oda@cn@ejEvxb@v}sC`{uCztu@vkJrwUbo\riTxnOr{Fm~Gv_XlpLp{WcnKxzQry[`xMte@zbUbpm@f|UlnMjxKeqPzdH`uB}|Hjf[d}UfjBx{NltJgqSbaVdgQx{[}_AbmQ_|Hx~IxnLpo^pki@dlLr{@t`jRtvRfs`BthaAfagBvfwAdggCncx@dr}BghYpxqBjjc@`bxGxi|Azv_C`dI}c|@anDgtcA|jQ_mEpeQhhC`}AqcLpuM~eBz_HgvT`cNdPrrV`utFhcQttWjiTsa{@zjAzzrB_wRf}sBxfo@dhjBxc]h}LjoLfwsAvhQb}b@rnd@dsO}oZhyYnwIlpz@gpPhuf@s~c@khC}tMogJapFstWtvEcrl@spDcrl@cxTn`GatK~d_@_vEesOslLi}L{v]_{Ks_JtjDqgf@sfQwqRiqs@cil@}qbAc|s@_fBkztAtjDumsA}j_Aa`|@idPqgcAp}gA}i~@h|i@som@xnyC}s]zgvCesTikSeyV|go@d{Mrlq@mm`@ria@k`u@jhC`cGprqAolgBra{@_kaAu_Nmul@rdkAapcA_~[bwDd_aDcpnApuaBsfhA~hRkpB`qaGpo}@nihCvaeAdeaEzqBprqAkfU~kb@xl@nbeC_eZrfQtw]|_iAtzAhm`A_`Ir{Z}_N~eBszKfjp@q~M~sHsl@hjp@heQ_fBdhChdP{ze@hkSunAf|i@aiInr@{oGmgJoqStirBtxQhcm@pkEvy~@ohTxbHy_E|moAsgI~aOfnA|kb@ozMnx`@a~iBjnXy]~jFc}DvvKe{AfsD|LtfF`~AfuCdJzwFubEhmRbqiAlJ</encodedPoints>
+				<levels>POMKMHJLNKPLONOLMPMOKMKIKJHJNIJJHLJIKHIJLPJHLKJJKIILNLLLMMLMJKLJKJLJKKMKKLKLJJOLJIMJLKILKMKIJOKMKKPPONPNMMNPMMOLMLPLPJMMPNNPNPLOLNNJKPKMKMPMLMLMKNPLLLOMJLLPKLLNLLMMMKNPMMNMOLLNMNLPMMPNLPOMNNPNMJPLMOLLLPLNLMILKJPKHMNLKPKMOMKMKPKMKKMNNNLNLMOMKPIMJMPMKLLMLMKKJMOGJOJJMKKJIMLLPMLILKKMKKLKKLLJPLKJMLMLOGKNLNOJMJKKJKNKMMKNLLKLPLKMOJLJNKMILJJMJNJMKPKNJMLLMLMOLMMPNLNMJLOLLMKMKKKMLKMLLJMLKLLJJNLLHENHHJMP</levels>
+				<zoomFactor>2</zoomFactor>
+				<numLevels>18</numLevels>
+			</polygon>
+		</polygonGroup>
+	</polygonGroups>
+</service-areas>

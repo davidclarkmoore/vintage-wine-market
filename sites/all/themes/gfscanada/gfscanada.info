@@ -1,0 +1,24 @@
+; $Id$
+name = GFSCanada
+description = GFSCanada Main Website specific theme.
+base theme = ninesixty
+core = 6.x
+engine = phptemplate
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[content] = Content
+regions[header] = Header
+regions[fp_header_tagline] = Header Tagline
+regions[footer] = Footer
+regions[footer_bottom] = Footer Bottom
+regions[header_top_nav] = Header Top Nav
+regions[header_top_order_online] = Header Top Order Online
+regions[header_top_language] = Header Top Language 
+regions[header_search] = Header Search 
+regions[printer_friendly] = Printer Friendly
+regions[callout_left] = Callout Left
+regions[callout_middle] = Callout Middle
+regions[callout_right] = Callout Right
+regions[callout_homepage_top_left] = Callout Homepage Top Left
+regions[callout_homepage_bottom_left] = Callout Homepage Bottom Left
+regions[callout_homepage_right] = Callout Homepage Right

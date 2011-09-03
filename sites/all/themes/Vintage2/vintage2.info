@@ -1,0 +1,46 @@
+
+name = Vintage2
+description = A flexible theme for Vintage Enoteca. All rights reserved 2011.
+version = VERSION
+base theme = ninesixty
+core = 7.x
+engine = phptemplate
+
+regions[featured_homepage_slider] = Featured Homepage Slider
+regions[page_rotator] = Page Image Rotator
+regions[tagline_region] = Tagline Block Area
+
+regions[content] = Content
+
+regions[wine_list] = Wine List
+
+regions[menu_left] = Menu Left
+regions[menu_right] = Menu Right
+
+regions[day_menu_left]= Day Menu Left
+regions[day_menu_right] = Day Menu Right
+
+regions[mentions] = Mentions Block Area
+regions[upcoming_events] = Upcoming Events Block Area
+regions[specials] = Specials Block Area
+
+regions[userlogin] = User Login
+
+regions[footer_firstcolumn] = Footer left column
+regions[footer_secondcolumn] = Footer middle column
+regions[footer_thirdcolumn] = Footer right column
+
+settings[shortcut_module_link] = 0
+
+stylesheets-conditional[lt IE 7][all][] = ie7.css
+stylesheets-conditional[IE 8][all][] = ie8.css
+stylesheets[all][] = style.css
+stylesheets[all][] = lato-fontfacekit/stylesheet.css
+scripts[] = scripts/clear-text.js
+
+
+; Information added by drupal.org packaging script on 2011-05-25
+version = "7.2"
+project = "drupal"
+datestamp = "1306357016"
+

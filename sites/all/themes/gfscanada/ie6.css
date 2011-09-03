@@ -1,0 +1,264 @@
+a {
+  cursor: hand;
+}
+
+.ie6_message {
+  text-align: center;
+  margin: 0 auto;
+  width: 500px;
+}
+  .ie6_message p {
+    clear: both;
+    font-size: 13px;
+  }
+
+ul#unsupported-browsers {
+  display: block;
+  position: relative;
+  text-align: center;
+  width: 400px;
+  list-style-type: none;
+  margin: 0 auto;
+}
+  ul#unsupported-browsers li {
+    display: inline;
+  }
+  ul#unsupported-browsers li a {
+    position: relative;
+    display: block;
+    margin: 0 32px 10px 0;
+    padding-top: 70px;
+    width: 75px;
+    height: 60px;
+    float: left;
+    font-size: 13px;
+    line-height: 1.2em;
+    text-decoration: none;
+    background: url(images/browser_logos.png) no-repeat 0 0;
+  }
+  ul#unsupported-browsers li.last a {
+    margin-right: 0;
+  }
+    ul#unsupported-browsers li.browser-ie8 a {
+      background-position: -283px 0;
+    }
+    ul#unsupported-browsers li.browser-firefox a {
+      background-position: -75px 0;
+    }
+    ul#unsupported-browsers li.browser-safari a {
+      background-position: -211px 0;
+    }
+  ul#unsupported-browsers li a:hover {
+    text-decoration: underline;
+  }
+
+.breadcrumb {
+  width: 380px;
+}
+
+div.msds-container {
+  padding-bottom: 10px;
+}
+
+.button_all {
+  width: 30px;
+}
+
+.views-exposed-widgets .button_all {
+  margin-top: 0;
+}
+  .views-exposed-form .views-exposed-widget {
+    padding-right: 0 !important;
+    width: 250px;
+    height: 30px;
+  }
+  .views-exposed-widget {
+    position: relative;
+  }
+  .view-news-events .views-exposed-form .views-exposed-widget label {
+    line-height: 15px;
+  }
+
+
+/* ================================================================================================ */
+/* ››››› Fixing layout ‹‹‹‹‹ */
+/* ================================================================================================ */
+
+#top-part-of-header {
+  display: inline;
+}
+  #site-header-language a {
+    width: 90px;
+  }
+
+#header-region {
+  z-index: 1;
+  width: 960px;
+}
+  #header-region #front_header_welcome {
+    left: 0;
+    top: 7px;
+  }
+
+div#site-menu {
+  position: static;
+  margin: 0;
+}
+  #site-menu ul {
+    height: 30px;
+    width: 760px;
+    left: 0;
+    margin-left: -20px;
+    position: absolute;
+    top: 57px;
+    margin-left: 0;
+    outline: 1px solid red;
+  }
+  #site-menu ul li {
+    position: relative;
+    display: inline-block;
+  }
+  #site-menu ul li a {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 0;
+  }
+  #site-menu ul li a:hover,
+  #site-menu ul li.over a:hover,
+  #site-menu ul li.active-trail a,
+  #site-menu ul li a.active:hover,
+  #site-menu ul li.over a {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 0 !important;
+  }
+  #site-menu .gradient {
+    margin-left: 0;
+  }
+  #site-menu ul ul {
+    background: #FFC80B;
+    top: 25px;
+    margin-left: 0;
+    width: 213px !important;
+  }
+  #site-menu ul ul .drop-down-menu-wrap-outer {
+    background-image: none;
+    padding: 0;
+  }
+  #site-menu ul ul li {
+    padding-left: 8px;
+  }
+  #site-menu ul li.active-trail a {
+    width: 50px;
+  }
+a#site_menu_homepage_link {
+  top: 70px;
+  width: 85px;
+}
+
+#footer {
+  position: relative;
+  overflow: hidden;
+  width: 960px;
+}
+  div.homepage_callouts {
+    display: inline;
+    float: left;
+    margin-left: 0;
+  }
+  #callout_homepage_top_left_region,
+  #block-views-callout_left-block_1 {
+    display: inline;
+    }
+  #footer-top-region {
+    display: inline;
+  }
+  #footer-region {
+    padding-left: 10px;
+  }
+  #footer-top-region div.standard-cross-sells {
+    height: 120px;
+  }
+
+#sidebar-left ul.menu {
+}
+  #sidebar-left ul.menu .active,
+  #sidebar-left ul.menu li {
+    width: 120px;
+  }
+#main-content fieldset.collapsible.collapsed {
+  margin-bottom: 0;
+}
+
+/* ================================================================================================ */
+/* ››››› Main Layout ‹‹‹‹‹ */
+/* ================================================================================================ */
+
+
+#main {
+  display: inline;
+  width: 500px;
+}
+  .one-sidebar #main {
+    width: 755px;
+  }
+#sidebar-left {
+  width: 160px !important;
+}
+#sidebar-right {
+  width: 190px;
+}
+.exhibit-holder .exhibit {
+  display: inline;
+}
+
+
+
+
+/* ================================================================================================ */
+/* ››››› Images ‹‹‹‹‹ */
+/* ================================================================================================ */
+
+.drop-shadow {
+  display: block;
+  clear: both;
+}
+  .drop-shadow-outer {
+    position: relative;
+  }
+  .drop-shadow-inner {
+    overflow: hidden;
+    width: ;
+    padding-bottom: 3px;
+  }
+  .drop-shadow-bottom-right {
+    background-position: right bottom;
+  }
+  .drop-shadow-bottom-left {
+    background-position: -4px bottom;
+  }
+  .views-view-grid .drop-shadow-bottom-right,
+  .views-view-grid .drop-shadow-bottom-left {
+    overflow: hidden;
+  }
+  .view-product-category tr td {
+    height: 130px;
+  }
+
+/* ================================================================================================ */
+/* ››››› Dessert Menu Form ‹‹‹‹‹ */
+/* ================================================================================================ */
+
+#webform-component-additional-desserts-and-drinks .webform-component-fieldset .description {
+  font-size: 100%;
+  top: 30px;
+  left: 20px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
