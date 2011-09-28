@@ -37,6 +37,7 @@ stylesheets-conditional[IE 8][all][] = ie8.css
 stylesheets[all][] = style.css
 stylesheets[all][] = lato-fontfacekit/stylesheet.css
 scripts[] = scripts/clear-text.js
+scripts[] = scripts/reservations_show.js
 
 
 ; Information added by drupal.org packaging script on 2011-05-25

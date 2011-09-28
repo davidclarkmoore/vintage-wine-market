@@ -93,6 +93,8 @@
   
 
 </div>
+
+<div class="grid-12"
 </div>
 
 <div id="sub_node_box">

@@ -36,3 +36,5 @@
 [27-Jul-2011 09:37:12] PHP Fatal error:  Call to a member function options_validate() on a non-object in /home2/vintagj1/public_html/dev/sites/all/modules/views/includes/admin.inc on line 4127
 [27-Jul-2011 15:04:10] PHP Fatal error:  Call to a member function options_validate() on a non-object in /home2/vintagj1/public_html/dev/sites/all/modules/views/includes/admin.inc on line 4127
 [31-Jul-2011 11:44:08] PHP Fatal error:  Cannot unset string offsets in /home2/vintagj1/public_html/dev/sites/all/modules/date/date_views/includes/date_views_filter_handler_simple.inc on line 109
+[27-Sep-2011 21:45:22] PHP Fatal error:  Undefined class constant 'MYSQL_ATTR_USE_BUFFERED_QUERY' in /Users/davidmoore/Sites/vintageenoteca.com/includes/database/mysql/database.inc on line 42
+[27-Sep-2011 21:46:11] PHP Fatal error:  Undefined class constant 'MYSQL_ATTR_USE_BUFFERED_QUERY' in /Users/davidmoore/Sites/vintageenoteca-com/includes/database/mysql/database.inc on line 42
