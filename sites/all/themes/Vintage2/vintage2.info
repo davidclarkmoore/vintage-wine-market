@@ -20,6 +20,8 @@ regions[menu_right] = Menu Right
 regions[day_menu_left]= Day Menu Left
 regions[day_menu_right] = Day Menu Right
 
+regions[pagefootermessage] = Page Footer Message
+
 regions[mentions] = Mentions Block Area
 regions[upcoming_events] = Upcoming Events Block Area
 regions[specials] = Specials Block Area
