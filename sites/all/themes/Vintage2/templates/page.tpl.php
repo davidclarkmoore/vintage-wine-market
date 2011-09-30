@@ -93,13 +93,7 @@
   
 
 </div>
-
-    <?php if ($page['pagefootermessage']): ?>
-<div class="grid-12">
-      <?php print render($page['pagefootermessage']); ?>
-      </div>
-  <?php endif; ?>
-
+</div>
 
 <div id="sub_node_box">
 <div class="container-12">

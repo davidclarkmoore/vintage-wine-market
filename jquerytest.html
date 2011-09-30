@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>jQuery Hello World</title>
+ 
+ <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+ 
+ <style type="text/css">
+ 
+ .reservations_widget_box {
+
+	height:300px;
+	margin-top: 120px;
+	margin-left: 735px;
+	position: absolute;
+	padding: 30px 22px 5px 20px;
+ 	background-color: #EBEBEB;
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	z-index: 500;
+-webkit-box-shadow: 3px 3px 3px #888888; /* Safari and Chrome */
+box-shadow: 3px 3px 3px #888888;
+display: none;
+
+
+}
+
+a.reservations-menu {
+color: grey;
+margin-left: 770px;
+padding-top: 120px;
+
+}
+
+.reservations_widget_box_top {
+
+	width: 172px;
+	height: 80px;
+	margin-top: 65px;
+	margin-left:  770px;
+	background-color: #EBEBEB;
+	position: absolute;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+-webkit-box-shadow: 3px 3px 3px #888888; /* Safari and Chrome */
+box-shadow: 3px 3px 3px #888888;
+display: none;
+
+
+}
+
+.reservation li:hover .reservations_widget_box_top,
+.reservation li:hover .reservations_widget_box  {
+display: block;
+}
+
+.reservations_widget_box_top:hover,.reservations_widget_box:hover {
+display: block;
+}
+ 
+ </style>
+ 
+</head>
+ 
+<body>
+
+
+<ul class="reservation">
+<li><a href="#" class="reservations-menu">Test</a>
+
+<div class="reservations_widget_box_top"></div>
+<div class="reservations_widget_box">
+
+
+<script type="text/javascript" src="http://www.opentable.com/frontdoor/default.aspx?rid=51451&restref=51451&bgcolor=F6F6F3&titlecolor=000000&subtitlecolor=0F0F0F&btnbgimage=http://www.opentable.com/frontdoor/img/ot_btn_red.png&otlink=FFFFFF&icon=dark&mode=short&hover=1">
+</script>
+<a href="http://www.opentable.com/vintage-enoteca-reservations-los-angeles?rtype=ism&restref=51451" class="OT_ExtLink">Vintage Enoteca Reservations</a>
+
+</div>
+</div>
+</li>
+</ul>
+
+</body>
+</html>

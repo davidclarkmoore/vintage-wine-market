@@ -81,8 +81,6 @@
         position: myLatlng, 
         map: map,
         title:"Vintage Enoteca!"
-		
-		
     });   
   }
 </script>

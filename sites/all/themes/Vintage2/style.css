@@ -77,10 +77,16 @@ font-family: "museo-slab-1","museo-slab-2",serif;
   	font-size: 200%;
  	color: #681d11;
   	text-transform: lowercase;
-}
+  	position: relative;
+  	z-index: 500;
+
+  	
+  	}
 
 #main-menu-links li{
-    display: inline;}
+    display: inline;
+    
+    }
  
 #main-menu-links li a {
     float: right; 
@@ -89,6 +95,7 @@ font-family: "museo-slab-1","museo-slab-2",serif;
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 0px;	
+
   }
   
 #main-menu-links li a:hover {
@@ -99,23 +106,25 @@ font-family: "museo-slab-1","museo-slab-2",serif;
 
   }
   
-#reservations-widget {
 
-	width: 100%;
-	height: 100%;
-	margin-top: 150px;
-	margin-left: 700px;
-	position: absolute;
-	padding: 5px 5px 5px 5px;
- 	background-color: #EBEBEB;
-    -webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	overflow: hidden;
-	display: none;
 
-}
   
+.reservations_widget_box {
+
+	width: 215px;
+	height: 355px;
+	margin-top: 63px;
+	margin-left:  732px;
+	background:url('images/reservationmenudropdown.png') no-repeat;
+	position: absolute;
+	padding: 75px 22px 5px 20px;
+	display: none;
+	z-index:450;
+}
+
+
+
+ 
   
   /* ---------- Homepage Featured Slider---------- */
   

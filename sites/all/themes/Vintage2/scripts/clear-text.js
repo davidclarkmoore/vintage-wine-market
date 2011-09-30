@@ -18,3 +18,4 @@ Drupal.behaviors.clear_search = {
   }
 }
 })(jQuery);
+
