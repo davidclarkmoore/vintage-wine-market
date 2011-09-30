@@ -36,11 +36,7 @@
 
 
 <div class="reservations_widget_box">
-
-<script type="text/javascript" src="http://www.opentable.com/frontdoor/default.aspx?rid=51451&restref=51451&bgcolor=F6F6F3&titlecolor=000000&subtitlecolor=0F0F0F&btnbgimage=http://www.opentable.com/frontdoor/img/ot_btn_red.png&otlink=FFFFFF&icon=dark&mode=short&hover=1">
-</script>
-<a href="http://www.opentable.com/vintage-enoteca-reservations-los-angeles?rtype=ism&restref=51451" class="OT_ExtLink">Vintage Enoteca Reservations</a>
-
+<script type="text/javascript" src="http://www.opentable.com/frontdoor/default.aspx?rid=51451&restref=51451&bgcolor=F6F6F3&titlecolor=0F0F0F&subtitlecolor=0F0F0F&btnbgimage=http://www.opentable.com/frontdoor/img/ot_btn_red.png&otlink=FFFFFF&icon=dark&mode=tall&hover=1"></script><a href="http://www.opentable.com/vintage-enoteca-reservations-los-angeles?rtype=ism&restref=51451" class="OT_ExtLink">Vintage Enoteca Reservations</a>
 </div>
 </div>
 
