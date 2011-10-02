@@ -4,7 +4,7 @@
 
  $(document).ready(function() {
 
-$('li a.reservation-menu').mouseenter(function(){
+$('li span.reservation-menu').mouseenter(function(){
 		$('div.reservations_widget_box').fadeIn('10');
 	});
 

@@ -106,15 +106,19 @@ font-family: "museo-slab-1","museo-slab-2",serif;
 
   }
   
+#main-menu-links li span {
 
+float: right;
+margin-left: 5px;
+}
 
   
 .reservations_widget_box {
 
 	width: 215px;
 	height: 514px;
-	margin-top: 63px;
-	margin-left:  732px;
+	margin-top: 64px;
+	margin-left:  743px;
 	background:url('images/reservationmenudropdown.png') no-repeat;
 	position: absolute;
 	padding: 75px 22px 5px 20px;
