@@ -182,7 +182,7 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'vintagj1_vintagedrupal',
+      'database' => 'vintagj1_vintagedrupal_dev',
       'username' => 'vintagj1_admin',
       'password' => 'Vintage2011*',
       'host' => 'localhost',
