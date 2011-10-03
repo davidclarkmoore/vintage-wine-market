@@ -182,8 +182,8 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'vintagj1_vintagedrupal_dev',
-      'username' => 'vintagj1_admin2',
+      'database' => 'vintagj1_vintagedrupal',
+      'username' => 'vintagj1_admin',
       'password' => 'Vintage2011*',
       'host' => 'localhost',
       'port' => '',
@@ -193,23 +193,6 @@ $databases = array (
   ),
 );
 
-/*
-
-$databases = array (
-  'default' => 
-  array (
-    'default' => 
-    array (
-      'database' => 'vintagj1_vintagedrupal_dev',
-      'username' => 'vintagj1_admin2',
-      'password' => 'Vintage2011*',
-      'host' => 'localhost',
-      'port' => '',
-      'driver' => 'mysql',
-      'prefix' => '',
-    ),
-  ),
-);
 
 
 /**
