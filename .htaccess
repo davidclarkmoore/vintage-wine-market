@@ -78,7 +78,6 @@ DirectoryIndex index.php index.html index.htm
   # directories from your webroot or otherwise protect them from being
   # downloaded.
   RewriteRule "(^|/)\." - [F]
-  RewriteRule (.*) vintageenoteca-com/$1 [L]
 
   # If your site can be accessed both with and without the 'www.' prefix, you
   # can use one of the following settings to redirect users to your preferred
@@ -100,7 +99,7 @@ DirectoryIndex index.php index.html index.htm
   # VirtualDocumentRoot and the rewrite rules are not working properly.
   # For example if your site is at http://example.com/drupal uncomment and
   # modify the following line:
-  # RewriteBase /drupal
+ RewriteBase /vintageenoteca-com
   #
   # If your site is running in a VirtualDocumentRoot at http://example.com/,
   # uncomment the following line:
