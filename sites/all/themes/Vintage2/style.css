@@ -83,13 +83,11 @@ font-family: "museo-slab-1","museo-slab-2",serif;
   	
   	}
 
-#main-menu-links li{
+#main-menu-links li , #main-menu-links li span.reservation-menu {
     display: inline;
-    
     }
  
-#main-menu-links li a {
-    float: right; 
+#main-menu-links li a, #main-menu-links li span.reservation-menu {
 	text-decoration: none;
     color: #681d11;
     padding-left: 12px;
@@ -106,19 +104,13 @@ font-family: "museo-slab-1","museo-slab-2",serif;
 
   }
   
-#main-menu-links li span {
-
-float: right;
-margin-left: 5px;
-}
-
   
 .reservations_widget_box {
 
 	width: 215px;
 	height: 525px;
 	margin-top: 64px;
-	margin-left:  743px;
+	margin-left:  733px;
 	background:url('images/reservationmenudropdown.png') no-repeat;
 	position: absolute;
 	padding: 75px 22px 5px 20px;

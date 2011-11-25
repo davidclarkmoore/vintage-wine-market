@@ -50,3 +50,16 @@ color: #dfdfdf;
 .blocktitleshift {
 	margin-top: 0px;
 }
+
+.reservations_widget_box {
+
+	width: 215px;
+	height: 525px;
+	margin-top: 85px;
+	margin-left:  445px;
+	background:url('images/reservationmenudropdown.png') no-repeat;
+	position: absolute;
+	padding: 75px 22px 5px 20px;
+	display: none;
+	z-index:1000;
+}
