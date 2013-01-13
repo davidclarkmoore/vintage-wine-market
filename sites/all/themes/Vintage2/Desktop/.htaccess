@@ -1,0 +1,25 @@
+#
+# Apache/PHP/Drupal settings:
+#
+
+# Protect files and directories from prying eyes.
+<FilesMatch "\.(engine|inc|info|install|make|module|profile|test|po|sh|.*sql|theme|tpl(\.php)?|xtmpl)$|^(\..*|Entries.*|Repository|Root|Tag|Template)$">
+  Order allow,deny
+</FilesMatch>
+
+
+# this redirects "/" to "/main" (while maintaining the original URL),
+# (Drupal still adds the '/main' back in when you click on a topic,
+# but having a clean frontpage URL is my main concern here.)
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} vintageenoteca.com
+# don't rewrite if it's already /vintageenoteca-com
+RewriteCond %{REQUEST_URI} !vintageenoteca-com/
+
+# if it satisfies those conditions, here's the rewrite rule
+RewriteRule ^(.*)$ http://vintageenoteca/vintageenoteca-com/$1
+
+

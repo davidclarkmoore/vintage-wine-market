@@ -207,6 +207,8 @@ margin-left: 790px;
 
 
 
+
+
 /* ---------- Menu Page Slider---------- */
 
 #views_slideshow_cycle_teaser_section_menu_page_image_slider-block {
@@ -474,7 +476,50 @@ mention-body img {
 	padding-bottom: 40px;
 }
 
+/* ----------blog---------- */
 
+.view-blog .views-row {
+	clear:both;
+
+}
+
+.page-blog #sitecontainer .node-body {
+	height: 100%;
+}
+
+.view-blog  .views-row h1 {
+font-size: 200%;
+font-family: 'LatoLight',arial,serif;
+color: #681D11;
+}
+
+.page-blog .views-field-field-event-image {
+	float: left;
+	margin-right: 10px;
+}
+
+.page-blog .views-field-field-event-image img {
+	border: 4px solid #999999;
+
+}
+
+.node-type-post .node-body {
+	height: 100%;
+}
+
+.view-recent-articles .views-row .menu_item_title p {
+	font-family: 'LatoLight', arial, serif;
+}
+
+.node-type-post .field-name-body img {
+	max-width: 100%
+	height: auto;
+}
+
+.blog-date {
+	text-transform: uppercase;
+	font-size: 80%;
+}
 
 /* ----------Upcoming---------- */
 

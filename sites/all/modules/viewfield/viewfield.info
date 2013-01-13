@@ -5,9 +5,9 @@ package = Fields
 dependencies[] = views
 files[] = tests/viewfield.test
 
-; Information added by drupal.org packaging script on 2011-11-03
-version = "7.x-2.x-dev"
+; Information added by drupal.org packaging script on 2012-07-02
+version = "7.x-2.0"
 core = "7.x"
 project = "viewfield"
-datestamp = "1320280574"
+datestamp = "1341254544"
 

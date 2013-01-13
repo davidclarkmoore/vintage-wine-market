@@ -1,0 +1,1 @@
+window.CKEDITOR_BASEPATH = '/vintageenoteca-com/sites/all/libraries/ckeditor/';

@@ -25,9 +25,7 @@
 }
 
 #featured-slider {
-	z-index:999;
-
-
+	z-index:500;
 }
 
 .wine-list {
@@ -55,11 +53,19 @@ color: #dfdfdf;
 
 	width: 215px;
 	height: 525px;
-	margin-top: 85px;
-	margin-left:  445px;
+	margin-top: 68px;
+	margin-left:  438px;
 	background:url('images/reservationmenudropdown.png') no-repeat;
 	position: absolute;
 	padding: 75px 22px 5px 20px;
 	display: none;
+	z-index:600;
+}
+
+#main-menu-links {
 	z-index:1000;
+}
+
+#navigation {
+	z-index:999;
 }
