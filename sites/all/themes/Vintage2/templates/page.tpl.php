@@ -107,7 +107,7 @@
 
 <div id="sub_node_box">
 <div class="container-12">
-<div class="grid-12">
+<div class="grid-12 alpha omega">
 <div class="grid-6 alpha specials">
  
   <div class="block_titles"><h1>specials</h1></div>
