@@ -95,5 +95,8 @@
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
+
+  <script src="http://static.dudamobile.com/DM_redirect.js" type="text/javascript"></script>
+  <script type="text/javascript">DM_redirect("http://mobile.dudamobile.com/site/vintageenotecacom");</script>
 </body>
 </html>
