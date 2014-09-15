@@ -183,10 +183,10 @@ $databases = array (
     'default' => 
     array (
       'database' => 'vintagj1_vintagedrupal',
-      'username' => 'vintagj1_app',
-      'password' => 'vintageapp13',
+      'username' => 'admin',
+      'password' => 'password',
       'host' => 'localhost',
-      'port' => '',
+      'port' => '8889',
       'driver' => 'mysql',
       'prefix' => '',
     ),
